@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <ul className='flex justify-center h-10 items-center bg-cyan-300 text-fuchsia-400 font-semibold'>
+        <ul className='flex justify-center h-16 items-center bg-emerald-400 text-white font-semibold shadow-md shadow-slate-300 '>
           <li><CustomLink to='/home'>HOME</CustomLink></li>
           <li><CustomLink to='/reviews'>REVIEWS</CustomLink></li>
           <li><CustomLink to='/dashboard'>DASHBOARD</CustomLink></li>

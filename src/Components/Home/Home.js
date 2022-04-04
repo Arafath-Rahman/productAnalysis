@@ -1,10 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useReviews from "../../Hooks/useReviews";
 import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = () => {
   const [reviews] = useReviews();
+
+  //click handler for see all reviews
+  let navigate = useNavigate();
+  const handleSeeAllReviews = () => {
+    navigate("/reviews");
+  };
 
   return (
     <div>
@@ -51,7 +58,7 @@ const Home = () => {
           ))}
         </div>
         <div className="flex">
-          <button className="bg-emerald-400 mt-5 p-2 rounded-md text-white text-xl font-semibold hover:bg-emerald-500 mx-auto">
+          <button onClick={handleSeeAllReviews} className="bg-emerald-400 mt-5 p-2 rounded-md text-white text-xl font-semibold hover:bg-emerald-500 mx-auto">
             See all Reviews
           </button>
         </div>

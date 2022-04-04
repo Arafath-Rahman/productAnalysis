@@ -4,7 +4,6 @@ import React from "react";
 import Rating from "react-rating";
 
 const Review = (props) => {
-
   const { name, review, rating, image } = props.review;
   
   return (

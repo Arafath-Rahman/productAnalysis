@@ -18,7 +18,7 @@ const Home = () => {
       <section className="grid grid-cols-1 md:grid-cols-3 gap-3 w-11/12 mx-auto mt-8">
         <div className="md:col-span-2 p-3 order-1">
           <div className="">
-            <h1 className="text-7xl text-emerald-500 font-black">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl text-emerald-500 font-black">
               THE <span className="text-red-500 tracking-widest">G.O.A.T</span>{" "}
               <br /> <span className="">LIONEL MESSI</span>
             </h1>
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div className="order-0 md:order-1">
           <img
-            className="min-w-full"
+            className=" w-2/3 md:w-11/12 lg:min-w-full"
             src={require("../../Asset/images/lionel-messi.png")}
             alt="lionel messi"
           />

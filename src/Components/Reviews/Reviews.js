@@ -4,7 +4,9 @@ import Review from "../Review/Review";
 import "./Reviews.css";
 
 const Reviews = () => {
+  //re-using useReview hook to get review data
   const [reviews] = useReviews();
+  
   return (
     <section className="p-8 mb-8">
       <h1 className="text-center text-3xl hover:underline text-emerald-400 mb-8">

@@ -6,7 +6,7 @@ const CustomLink = ({ children, to, ...props }) => {
 
   return (
     <div>
-      <Link
+      <Link className="hover:text-red-500"
         style={{ textDecoration: match ? "underline" : "none", marginRight:'30px' }}
         to={to}
         {...props}

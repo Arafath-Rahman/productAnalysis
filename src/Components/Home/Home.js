@@ -15,36 +15,28 @@ const Home = () => {
 
   return (
     <div>
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-3 w-11/12 mx-auto mt-8">
-        <div className="md:col-span-2 p-3 order-1">
+      <section className="grid grid-cols-1 place-items-center md:grid-cols-2 gap-3 w-11/12 mx-auto mt-8">
+        <div className=" p-3 order-1">
           <div className="">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl text-emerald-500 font-black">
-              THE <span className="text-red-500 tracking-widest">G.O.A.T</span>{" "}
-              <br /> <span className="">LIONEL MESSI</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl text-emerald-500 font-black">
+              <span className="text-red-500">MACBOOK PRO</span>{" "}
+              <br /> <span className="">The Power You Need</span>
             </h1>
             <p className="mt-3 text-lg">
-              Lionel Andrés Messi, also known as Leo Messi, is an Argentine
-              professional footballer who plays as a forward for League-1 club
-              Paris Saint-Germain and captains the Argentina national team.
-              Often considered the best player in the world and widely regarded
-              as one of the greatest players of all time, Messi has won a record
-              seven Ballon d'Or awards, a record six European Golden Shoes, and
-              in 2020 was named to the Ballon d'Or Dream Team. Until leaving the
-              club in 2021, he had spent his entire professional career with
-              Barcelona, where he won a club-record 35 trophies.
+            The MacBook Pro is a line of Macintosh notebook computers by by Apple Inc. Introduced in January 2006, it is the higher-end model of the MacBook family, sitting above the consumer-focused MacBook Air. It is currently sold with 13-inch, 14-inch, and 16-inch screens, all using variants of the Apple-designed M1 system on a chip.
             </p>
           </div>
           <div>
-            <button className="bg-emerald-400 mt-5 p-2 rounded-md text-white text-xl font-semibold hover:bg-emerald-500">
-              Career Details
+            <button className="bg-emerald-500 mt-5 p-2 rounded-md text-white text-xl font-semibold hover:bg-red-500">
+              See Details
             </button>
           </div>
         </div>
         <div className="order-0 md:order-1">
           <img
-            className=" w-2/3 md:w-11/12 lg:min-w-full"
-            src={require("../../Asset/images/lionel-messi.png")}
-            alt="lionel messi"
+            className="w-2/3 mx-auto md:w-11/12 lg:min-w-full"
+            src={require("../../Asset/images/macbook-pro.png")}
+            alt="macbook pro"
           />
         </div>
       </section>
@@ -58,7 +50,7 @@ const Home = () => {
           ))}
         </div>
         <div className="flex">
-          <button onClick={handleSeeAllReviews} className="bg-emerald-400 mt-5 p-2 rounded-md text-white text-xl font-semibold hover:bg-emerald-500 mx-auto">
+          <button onClick={handleSeeAllReviews} className=" mt-5 p-2 rounded-md bg-emerald-500 text-white text-xl font-semibold hover:bg-red-500  mx-auto">
             See all Reviews
           </button>
         </div>

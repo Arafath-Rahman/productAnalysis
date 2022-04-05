@@ -120,11 +120,11 @@ const Dashboard = () => {
   );
 
   return (
-    <div>
-      <h1 className="text-center text-3xl hover:underline text-emerald-400 mb-8 mt-5">
+    <div className="mb-8">
+      <h1 className="text-center text-3xl hover:underline text-emerald-400 mb-12 mt-5">
         DASHBOARD
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 gap-y-5 place-items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 gap-y-12 place-items-center">
         <div>
           <h1 className="text-center text-2xl font-semibold hover:underline text-emerald-400 mb-8">
             Month vs Sell

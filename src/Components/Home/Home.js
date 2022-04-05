@@ -14,8 +14,8 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <section className="grid grid-cols-1 place-items-center md:grid-cols-2 gap-3 w-11/12 mx-auto mt-8">
+    <div className="">
+      <section className="grid grid-cols-1 place-items-center md:grid-cols-2 gap-3 w-11/12 mx-auto mt-8 mb-8">
         <div className=" p-3 order-1">
           <div className="">
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-emerald-500 font-black">

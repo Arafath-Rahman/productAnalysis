@@ -22,11 +22,11 @@ const About = () => {
   };
   
   return (
-    <div className="blog-container border-2 w-2/3 mx-auto rounded-lg p-5 my-5 mb-5">
+    <div className="blog-container border-2 w-2/3 mx-auto rounded-lg p-5 my-5 mb-5 relative">
       <h1 className="text-center text-3xl font-bold hover:underline text-emerald-400 mb-8 mt-5">
         About Macbook
       </h1>
-      <div className='flex justify-around'>
+      <div className='flex justify-around mb-5'>
         <button onClick={()=>setDevice(true)} className='text-2xl font-medium p-3 bg-emerald-400 text-white rounded-lg'>Macbook</button>
         <span>Or</span>
         <button onClick={()=>setDevice(false)} className='text-2xl font-medium p-3 bg-red-500 text-white rounded-lg'>Macbook PRO</button>
